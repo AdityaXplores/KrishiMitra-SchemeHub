@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Farmers' Schemes Awareness</title>
+    <link rel="stylesheet" href="login-page.css">
+</head>
+<body>
+    <header>
+        <h1>Access Your Farmer's Schemes Portal</h1>
+        <h4>"Bridging Farmers with Opportunities"</h4>
+        <nav>
+            <ul>
+                <li><a href="DT.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Login</h2>
+            <form action="authenticate.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <div class="show-password">
+                    <input type="checkbox" id="showPassword">
+                    <label for="showPassword">Show Password</label>
+                </div>
+                
+                <button type="submit">Login</button>
+
+                <div class="form-links">
+                    <a href="farmerdetails.html">Register</a>
+                    <a href="forgot-password.html">Forgot Password?</a>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 "Where Government Meets the Fields".<br> All rights reserved.</p>
+    </footer>
+    <script>
+        // JavaScript to toggle password visibility
+        const passwordInput = document.getElementById('password');
+        const showPasswordCheckbox = document.getElementById('showPassword');
+
+        showPasswordCheckbox.addEventListener('change', () => {
+            if (showPasswordCheckbox.checked) {
+                passwordInput.type = 'text';
+            } else {
+                passwordInput.type = 'password';
+            }
+        });
+    </script>
+</body>
+</html>

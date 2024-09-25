@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-content h1, .header-content h2 {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.farming-icons i, .contact-info i, .notification-icon i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info p {
+    margin: 0 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #2E8B57;
+    padding: 15px;
+    color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #3CB371;
+}
+
+main {
+    width: 75%;
+    margin-left: 5%;
+}
+
+h2, h3 {
+    color: #006400;
+}
+
+.profile-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.sort-container {
+    margin-bottom: 20px;
+}
+
+.featured-schemes article, .current-schemes article, .upcoming-schemes article {
+    background-color: #ffffff;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.featured-schemes article:hover, .current-schemes article:hover, .upcoming-schemes article:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer-heading {
+    font-weight: bold;
+    margin: 0;
+}
+
+.footer-subheading {
+    margin: 5px 0 0;
+}

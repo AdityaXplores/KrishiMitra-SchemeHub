@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Details</title>
+    <link rel="stylesheet" href="farmerdetails.css">
+</head>
+<body>
+    <header>
+        <h1>Farmer Details Form</h1>
+        <h5>"Empowering Farmers, One Detail at a Time."</h5>
+    </header>
+    <main>
+        <section>
+            <h2>Enter Farmer Details</h2>
+            <form id="farmerForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="contact" pattern="[0-9]{10}" required>
+                
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select...</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+            <div id="formMessage"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Farmer's Schemes Awareness. All rights reserved.</p>
+    </footer>
+    <script src="farmer-details.js"></script>
+</body>
+</html>

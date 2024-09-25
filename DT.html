@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmers Schemes Awareness</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="DT.css">
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Include Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="heading-icons">
+                <i class="fas fa-tractor"></i>
+                <i class="fas fa-seedling"></i>
+                <i class="fas fa-cow"></i>
+            </div>
+            <div class="contact-info">
+                <i class="fas fa-phone"></i>
+                <p>+123 456 7890</p>
+                <i class="fas fa-envelope"></i>
+                <p>info@farmersschemes.com</p>
+            </div>
+            <button class="notification-button" onclick="showNotification()">
+                <i class="fas fa-bell"></i>
+            </button>
+        </div>
+        <div class="header-content">
+            <h1>Your Gateway to Government Updates</h1>
+            <h2>Stay Informed on All Releases and Upcoming Schemes</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="login-page.html"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                <li><a href="profile.html"><i class="fas fa-user"></i> Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="Schemes.html"><i class="fas fa-seedling"></i> Schemes</a></li>
+                <li><a href="maharashtra.html"><i class="fas fa-map-marker-alt"></i> Maharashtra Schemes</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <section class="home-block">
+                <h2>Welcome to Farmers Scheme Awareness</h2>
+                <p>Our platform provides information about various government schemes to help farmers improve their livelihoods.</p>
+            </section>
+
+            <section class="home-block profile-section">
+                <h3>Your Profile</h3>
+                <p>Manage your personal information, check your application status, and stay updated with the latest schemes.</p>
+                <a href="farmerdetails.html" class="btn"><i class="fas fa-user"></i> View Profile</a>
+            </section>
+
+            <section class="home-block">
+                <div class="sort-container">
+                    <label for="sort">Sort by:</label>
+                    <select id="sort">
+                        <option value="popularity">Popularity</option>
+                        <option value="date">Date Added</option>
+                        <option value="name">Name</option>
+                    </select>
+                </div>
+                <h3>Most Applied Schemes in Maharashtra</h3>
+                <div class="featured-schemes">
+                    <article>
+                        <h4>Scheme 1: Fertilizer Subsidy <i class="fas fa-info-circle"></i></h4>
+                        <p>Details about fertilizer subsidy scheme, eligibility, and how to apply.</p>
+                    </article>
+                    <article>
+                        <h4>Scheme 2: Irrigation Support <i class="fas fa-info-circle"></i></h4>
+                        <p>Information on irrigation support, application process, and benefits.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="home-block">
+                <h3>Current Schemes</h3>
+                <div class="current-schemes">
+                    <article>
+                        <h4>Current Scheme 1: Crop Insurance <i class="fas fa-info-circle"></i></h4>
+                        <p>Details about crop insurance scheme, eligibility, and how to apply.</p>
+                    </article>
+                    <article>
+                        <h4>Current Scheme 2: Seed Subsidy <i class="fas fa-info-circle"></i></h4>
+                        <p>Information on seed subsidies, application process, and benefits.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="home-block">
+                <h3>Upcoming Schemes</h3>
+                <div class="upcoming-schemes">
+                    <article>
+                        <h4>Upcoming Scheme 1: Organic Farming Support <i class="fas fa-info-circle"></i></h4>
+                        <p>Details about upcoming support for organic farming.</p>
+                    </article>
+                    <article>
+                        <h4>Upcoming Scheme 2: Water Conservation <i class="fas fa-info-circle"></i></h4>
+                        <p>Information on upcoming water conservation initiatives.</p>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p class="footer-heading">&copy; 2024 "Empowering Farmers, Securing Futures."</p>
+            <p class="footer-subheading">All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
